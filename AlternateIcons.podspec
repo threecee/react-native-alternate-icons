@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.author         = package['author']
   s.homepage       = package['homepage']
   s.source         = { :git => 'https://github.com/threecee/react-native-alternate-icons.git', :tag => "v#{s.version}"}
+  s.platform     = :ios, "10.0"
 
   s.preserve_paths = '*.js'
 
